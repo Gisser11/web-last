@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+.container1 {
+    padding: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

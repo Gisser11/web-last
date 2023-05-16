@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход в систему</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <header>
+        <div class="logo_pos">
+            <h1 class="text-xl text-red-800 font-extrabold"><a href="index.html">Auto Detail&Part's service</a></h1>
+        </div>
+        <ul clasS="nav__links">
+            <li>
+                <a href="">Страница работника</a>
+            </li>
+            <li>
+                <a href="">Акции</a>
+            </li>
+        </ul>
+        <a href="signChoose.html">
+            <button >
+                Вход в систему
+            </button>
+        </a>
+    </header>
+    <main>
+        <form class="px-4 my-32 max-w-3xl mx-auto space-y-6 border border-l-purple-500">
+            <h1 class="text-3xl font-extrabold">Вход в систему</h1>
+            <p class="text-gray-500">Для авторизации необходимо ввести номер телефона и выданный при регистрации пароль</p>
+            <div class="flex space-x-4">
+                <div class="w1/2">
+                    <label for="">Логин</label>
+                    <input class="border border-gray-400 block py-2 px-4 w-full rounded focus:outline-none focus:border-red-500"type="text" placeholder="(После +7)">
+                </div>
+                <div class="w1/2">
+                    <label for="">Пароль</label>
+                    <input class="border border-gray-400 block py-2 px-4 w-full rounded focus:outline-none focus:border-red-500"type="password" placeholder="Тут пароль">
+                </div>
+            </div>
+            <a href="clientpage.html" class="hover:bg-blue-700 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mx-auto my-4 block">Войти в систему</a>
+            </form>
+    </main>
+</body>
+</html>

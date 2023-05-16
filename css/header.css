@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    background: #f8f5f5;
+    border-bottom: 2px solid rgb(211, 31, 31);
+    border-radius: 100px;
+    
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgb(1, 1, 19);
+    color: #ffffff;
+  }
+  .logo_pos { 
+    max-width: 150px !important;
+    color: rgb(174, 194, 140);
+  }
