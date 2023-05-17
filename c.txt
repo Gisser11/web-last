@@ -1,0 +1,26 @@
+c<div class="main-text">
+            <h1 class="text-3xl font-bold">Добро пожаловать, Иннокентий!</h1>
+            <h1 class="text-s font-extralight">
+                За сегодня вами было заработано 39253,38 руб. 
+            </h1>
+        </div>
+        <div class="elems">
+            <a href="">
+                Работа с чеками для клиента
+            </a> <br>
+            <a href="">
+                Просмотреть записи на сегодня
+            </a> <br>
+            <a href="">
+                Цены
+            </a> <br>
+            <a href="index.html">
+                <button>Завершить работу</button>
+            </a> <br>
+        </div>
+    </div>
+    <main>
+        <div class="main-info">
+            <h1 class="text-5xl font-extrabold">Выберите, что вы хотите сделать.</h1>
+        </div>
+    </main> -->

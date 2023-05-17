@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content:center;
+    align-items: baseline;
+}
+
+.formsquares {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40%;
+    width: 50%;
+    height: 30%;
+}
